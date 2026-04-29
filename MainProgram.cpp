@@ -22,10 +22,10 @@ public:
     Point(double x, double y) : x(x), y(y) {}  // stub — fix initializer
 
     // TODO 2: const getter for x
-    double getX() { return x; }   // stub — add const
+    double getX() const { return x; }   // stub — add const
 
     // TODO 3: const getter for y
-    double getY() { return y; }   // stub — add const
+    double getY() const { return y; }   // stub — add const
 
     // TODO 4: const display()
     void display() const { std::cout << "("<< x << ", "<< y<< ")"; }
@@ -78,7 +78,7 @@ public:
 // TODO 12: implement isSameSize
    bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
     
-   return r1.getArea() == r2.getArea() ; }
+   return (r1.getArea() == r2.getArea()) ; }
 
 
 class ConstDemo {
