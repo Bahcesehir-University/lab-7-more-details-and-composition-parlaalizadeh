@@ -104,6 +104,6 @@ public:
 // ============================================================
 int main() {
     // TODO 17-21: demo code
-    std::cout << "Complete the TODOs above!" << std::endl;
+    
     return 0;
 }
